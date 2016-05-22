@@ -20,6 +20,9 @@ chmod +x pihole.sh
 sudo ./pihole.sh
 ```
 
+Install Notes:<br>
+When asked what upstream name servers you would like during install, please select Google.  These will be changed during the installation process.
+
 <a href="https://github.com/pi-hole/pi-hole/wiki/DNSCrypt">DNS Crypt Info</a><br>
 <a href="https://github.com/pi-hole/pi-hole/blob/master/advanced/Scripts/piholeDebug.sh">PiHole Debugger</a><br>
 <a href="https://github.com/pi-hole/pi-hole/issues/170">DNSSEC Validation</a><br>
