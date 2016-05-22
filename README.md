@@ -1,8 +1,5 @@
-<img src="https://www.evernote.com/shard/s6/sh/27d97183-5e95-43da-8053-972013556b8e/bb5dec2e3c36e4bb/res/ec6e4d80-df21-4dbb-ba44-34c213671b37/skitch.png?resizeSmall&width=832"/>
-
-
-# perfect-pihole-debian-auto-install-script
 A Perfect PiHole on Debian 8.3 x64 compatible with DigitalOcean (2gb) and other VPS providers.
+<img src="https://www.evernote.com/shard/s6/sh/27d97183-5e95-43da-8053-972013556b8e/bb5dec2e3c36e4bb/res/ec6e4d80-df21-4dbb-ba44-34c213671b37/skitch.png?resizeSmall&width=832"/>
 
 Uses by default <b>non-logging, dnssec enabled upstream nameservers.</b>
 Passes <a href="https://www.dnsleaktest.com/">DNS Leak Test</a> and <a href="https://ipleak.net/">IPLeak.net</a> extended tests
