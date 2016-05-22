@@ -1,6 +1,13 @@
 # perfect-pihole-debian-auto-install-script
 A Perfect PiHole on Debian 8.3 x64 compatible with DigitalOcean (2gb) and other VPS providers.
 
+pihole.sh will allow you to :
+-Update your machine and configure pre-requisite packages
+-Install pihole
+-Install dnscrypt
+
+Each step is optional and you can run pihole.sh multiple times to customize the installation.
+
 How to Install/Run:
 ```bash
 git clone https://github.com/88plug/perfect-pihole-debian-auto-install-script.git
