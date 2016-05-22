@@ -1,6 +1,9 @@
 # perfect-pihole-debian-auto-install-script
 A Perfect PiHole on Debian 8.3 x64 compatible with DigitalOcean (2gb) and other VPS providers.
 
+Uses by default <b>non-logging, dnssec enabled upstream nameservers.</b>
+Passes <a href="https://www.dnsleaktest.com/">DNS Leak Test</a> and <a href="https://ipleak.net/">IPLeak.net</a> extended tests
+
 <b>pihole.sh will allow you to :</b><br>
 -Update your machine and configure prerequisite packages<br>
 -Install pihole<br>
