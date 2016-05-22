@@ -21,7 +21,14 @@ sudo ./pihole.sh
 ```
 
 <b>Install Notes:</b><br>
-When asked what upstream name servers you would like during install, please select Google.  These will be changed during the setup process.  The installer doesn't always select the correct IP address. Be sure to verify your IP address matches the selected value during the setup questions.  
+When asked what upstream name servers you would like during install, please select Google.  These will be changed during the setup process.  The installer doesn't always select the correct IP address. Be sure to verify your IP address matches the selected value during the setup questions.<br>
+<br>
+If you change your /etc/dnsmasq.d/01-pihole.conf name servers you need to issue an update. 
+```bash
+service dnsmasq restart
+pihole -g
+```
+
 
 <a href="https://github.com/pi-hole/pi-hole/wiki/DNSCrypt">DNS Crypt Info</a><br>
 <a href="https://github.com/pi-hole/pi-hole/blob/master/advanced/Scripts/piholeDebug.sh">PiHole Debugger</a><br>
