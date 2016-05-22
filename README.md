@@ -12,7 +12,7 @@ Passes <a href="https://www.dnsleaktest.com/">DNS Leak Test</a> and <a href="htt
 Each step is optional and you can run pihole.sh multiple times to customize the installation.<br>
 DNSCrypt Version : 1.6.1
 
-<b>Install/Run:</b>
+<b>Install/Run: Fresh Install of Debian 8.3 x64</b>
 ```bash
 git clone https://github.com/88plug/perfect-pihole-debian-auto-install-script.git
 cd perfect-pihole-debian-auto-install-script
