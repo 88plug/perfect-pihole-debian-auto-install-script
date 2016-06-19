@@ -31,6 +31,7 @@ apt-get update --fix-missing
 			echo "No distribution upgrade installed.  Continuing to required packages..."
 			aptitude -y install lighttpd lighttpd-doc
 			apt-get --yes install sudo htop bmon curl wget sendmail-bin build-essential tcpdump dnsutils libsodium-dev locate bash-completion php5-cgi php5-common php5 figlet toilet bc git unzip
+			curl -L https://install.pi-hole.net | bash
 			fi
 else
 echo "No packages installed...but we still need pihole!"
