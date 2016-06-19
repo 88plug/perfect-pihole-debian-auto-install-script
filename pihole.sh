@@ -127,6 +127,7 @@ no-resolv
 
 # Add other name servers here, with domain specs if they are for
 # non-public domains.
+all-servers
 server=127.0.0.1#40
 server=127.0.0.1#41
 #From https://dns.watch/index if you need. no logging, DNSSEC enabled
